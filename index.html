@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sneakers Wave</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f9ff;
+  color: #033;
+}
+header {
+  background: linear-gradient(135deg, #0066ff, #00c6ff);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  padding: 50px 20px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 42px;
+}
+.products {
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.product {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+.product h3 {
+  margin: 10px 0 5px;
+}
+.product button {
+  background: #0066ff;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.contact {
+  background: #e6f2ff;
+  padding: 40px 20px;
+  text-align: center;
+}
+.contact a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 20px;
+  background: #0066ff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Sneakers Wave</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Ride the Wave of Fresh Sneakers 🌊👟</h1>
+  <p>Latest styles • Trusted seller • Order via DM</p>
+</section>
+
+<section id="shop" class="products">
+  <div class="product">
+    <img src="https://via.placeholder.com/300x200?text=Sneaker+1">
+    <h3>Wave Runner</h3>
+    <p>$120</p>
+    <button>Order Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/300x200?text=Sneaker+2">
+    <h3>Ocean Air</h3>
+    <p>$140</p>
+    <button>Order Now</button>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/300x200?text=Sneaker+3">
+    <h3>Street Flow</h3>
+    <p>$110</p>
+    <button>Order Now</button>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Order Now</h2>
+  <p>Message us to place your order 👇</p>
+  <a href="https://wa.me/1234567890">WhatsApp</a>
+  <a href="https://facebook.com/">Facebook Messenger</a>
+</section>
+
+<footer>
+  © 2026 Sneakers Wave | All Rights Reserved
+</footer>
+
+</body>
+</html>
